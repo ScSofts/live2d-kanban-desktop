@@ -3,9 +3,6 @@ const axios = nodeRequire('axios')
 const GptAnswerCross = "<span class='fui-cross' onclick=\"hideMessageLocked(500);document.getElementById('nlp').value='';\" style=' font-size: 13px;z-index: 100;position: absolute;padding:5px;right: 0px;top:0px' ></span>"
 
 async function gptrun(sentense,answerDiv) {
-    // document.getElementById(answerDiv).style.padding='10px';
-    // document.getElementById(answerDiv).style.overflowY='auto';
-    // document.getElementById(answerDiv).innerHTML='正在请求中...';
     showMessageLocked('正在请求中...',undefined);
 const response = await axios({
     method: 'POST',

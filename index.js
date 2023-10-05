@@ -76,7 +76,7 @@ function createWindow () {
       }
     });
     // 并且为你的应用加载index.html
-    settings.loadFile('Settings.html');
+    settings.loadFile('settings.html');
     //settings.webContents.openDevTools();
   
     settings.webContents.on("before-input-event", (event, input) => { //禁用alt+f4
@@ -120,7 +120,7 @@ function createWindow () {
             //   }
             // });
             // // 并且为你的应用加载index.html
-            // settings.loadFile('Settings.html');
+            // settings.loadFile('settings.html');
             // //settings.webContents.openDevTools();
   
             // settings.webContents.on("before-input-event", (event, input) => { //禁用alt+f4
@@ -256,7 +256,7 @@ function createWindow () {
       //       }
       //     });
       //     // 并且为你的应用加载index.html
-      //     settings.loadFile('Settings.html');
+      //     settings.loadFile('settings.html');
       //     //settings.webContents.openDevTools();
 
       //     settings.webContents.on("before-input-event", (event, input) => { //禁用alt+f4
